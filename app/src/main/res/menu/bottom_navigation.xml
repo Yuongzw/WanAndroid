@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/bottom_study"
+        android:icon="@drawable/ic_home_normal"
+        android:title="主页" />
+    <item
+        android:id="@+id/bottom_recreation"
+        android:icon="@drawable/ic_book"
+        android:title="体系" />
+    <item
+        android:id="@+id/bottom_life"
+        android:icon="@drawable/ic_project_normal"
+        android:title="项目" />
+</menu>

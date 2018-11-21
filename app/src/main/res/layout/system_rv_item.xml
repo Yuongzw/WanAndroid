@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="@dimen/dimen_10dp"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:id="@+id/tv_head"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="开发环境"
+        android:textSize="@dimen/dimen_20sp"/>
+
+    <com.nex3z.flowlayout.FlowLayout
+        android:id="@+id/flow_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen_5dp"
+        app:flChildSpacing="6dp"
+        app:flRowSpacing="8dp" />
+
+
+
+</LinearLayout>

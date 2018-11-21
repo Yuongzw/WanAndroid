@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:hjm="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:tag="skin:main_bg:background"
+    tools:context=".mvp.view.activity.MainActivity">
+
+    <FrameLayout
+        android:id="@+id/fl_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <com.example.admin.mydailystudy.mvp.view.widget.MyViewPager
+            android:id="@+id/viewPager"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            />
+
+        <android.support.design.widget.BottomNavigationView
+            android:id="@+id/bottomNavigationView"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_alignParentBottom="true"
+            android:background="?android:attr/windowBackground"
+            app:itemBackground="@null"
+            android:layout_gravity="bottom"
+            app:itemIconTint="@drawable/bottom_navigation_selector"
+            app:itemTextColor="@drawable/bottom_navigation_selector"
+            app:menu="@menu/bottom_navigation"
+            tools:ignore="ObsoleteLayoutParam" />
+
+
+        <!--<com.hjm.bottomtabbar.BottomTabBar-->
+        <!--android:id="@+id/bottom_tab_bar"-->
+        <!--hjm:tab_bar_background="#FFFFFF"-->
+        <!--hjm:tab_divider_background="#FF0000"-->
+        <!--hjm:tab_font_size="14px"-->
+        <!--hjm:tab_img_font_padding="0px"-->
+        <!--hjm:tab_img_height="70px"-->
+        <!--hjm:tab_img_width="70px"-->
+        <!--hjm:tab_isshow_divider="true"-->
+        <!--hjm:tab_padding_bottom="5px"-->
+        <!--hjm:tab_padding_top="5px"-->
+        <!--hjm:tab_selected_color="#0e9cf1"-->
+        <!--hjm:tab_unselected_color="@color/colorPrimary"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--tools:ignore="PxUsage" />-->
+
+    </FrameLayout>
+    <!-- The navigation drawer -->
+    <android.support.design.widget.NavigationView
+        android:id="@+id/navigationView"
+        android:layout_width="300dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        app:headerLayout="@layout/navigation_header"
+        android:tag="skin:main_bg:background"
+        app:menu="@menu/drawer" />
+
+
+</android.support.v4.widget.DrawerLayout>

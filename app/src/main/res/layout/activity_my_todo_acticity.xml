@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:zhy="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:tag="skin:main_bg:background"
+    tools:context=".mvp.view.activity.MyTodoActivity">
+
+    <include layout="@layout/title_bar"/>
+    <!--<com.nex3z.flowlayout.FlowLayout-->
+        <!--android:id="@+id/flow_layout"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginTop="@dimen/dimen_5dp"-->
+        <!--android:layout_marginLeft="@dimen/dimen_10dp"-->
+        <!--app:flChildSpacing="6dp"-->
+        <!--app:flRowSpacing="8dp" />-->
+
+    <com.zhy.view.flowlayout.TagFlowLayout
+        android:id="@+id/flow_layout"
+        zhy:max_select="1"
+        android:layout_width="fill_parent"
+        android:background="#81636262"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/dimen_10dp"/>
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/vp_todo"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+</LinearLayout>

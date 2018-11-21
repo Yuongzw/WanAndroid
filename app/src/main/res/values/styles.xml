@@ -1,0 +1,28 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowTranslucentStatus" tools:ignore="NewApi">true</item><!--沉浸状态栏 -->
+        <!--<item name="android:windowTranslucentNavigation" tools:ignore="NewApi">true</item>--><!--沉浸底部返回栏 -->
+    </style>
+
+    <style name="BottomDialogAnimation">
+        <item name="android:windowEnterAnimation">@anim/bottom_dialog_slide_show</item>
+        <item name="android:windowExitAnimation">@anim/bottom_dialog_slide_hide</item>
+    </style>
+
+    <!-- 自定义CheckBox 样式 -->
+    <style name="CustomCheckboxTheme" parent="@android:style/Widget.CompoundButton.CheckBox">
+        <item name="android:button">@drawable/custom_checkbox_selector</item>
+    </style>
+
+    <style name="TipDialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@android:color/white</item>
+    </style>
+
+</resources>

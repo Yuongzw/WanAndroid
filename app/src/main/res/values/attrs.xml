@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- changeskin 默认 -->
+    <color name="menu_item_text_color">#ffffffff</color>
+    <color name="item_text_color">#ff000000</color>
+    <color name="main_bg">#fffffffe</color>
+    <color name="title_bg">#2C81FF</color>
+    <color name="tab_bg">#b7b3b3</color>
+    <!--应用内换肤资源-->
+    <color name="item_text_color_red">#ff0000</color>
+    <color name="menu_item_text_color_red">#ff0000</color>
+    <color name="item_text_color_yellow">#E8BF6A</color>
+    <color name="menu_item_text_color_yellow">#E8BF6A</color>
+    <color name="main_bg_yellow">#E8BF6A</color>
+    <color name="item_text_color_green">#4CAF50</color>
+    <color name="menu_item_text_color_green">#4CAF50</color>
+
+    <color name="main_bg_base">#FB5B81</color>
+    <color name="tab_bg_base">#d84f6f</color>
+    <color name="title_bg_base">#b8445f</color>
+    <color name="main_bg_blue">#0077D9</color>
+    <color name="tab_bg_blue">#016ac1</color>
+    <color name="title_bg_blue">#0061b0</color>
+    <color name="main_bg_light">#03A9F4</color>
+    <color name="tab_bg_light">#0191d3</color>
+    <color name="title_bg_light">#0077ab</color>
+    <color name="main_bg_orange">#fea04f</color>
+    <color name="tab_bg_orange">#d08342</color>
+    <color name="title_bg_orange">#b76f32</color>
+    <color name="main_bg_teal">#00ae9e</color>
+    <color name="tab_bg_teal">#009182</color>
+    <color name="title_bg_teal">#008375</color>
+    <color name="main_bg_brown">#8c6253</color>
+    <color name="tab_bg_brown">#735244</color>
+    <color name="title_bg_brown">#5b4036</color>
+    <color name="main_bg_green">#4CAF50</color>
+    <color name="tab_bg_green">#3e8e41</color>
+    <color name="title_bg_green">#317134</color>
+    <color name="main_bg_red">#FF5252</color>
+    <color name="tab_bg_red">#d14343</color>
+    <color name="title_bg_red">#ad3939</color>
+    <color name="main_bg__bg">#000028</color>
+    <color name="title_bg__bg">#ffffff</color>
+
+    <!-- 加载状态切换Layout -->
+    <declare-styleable name="LoadingStatusLayout">
+        <attr name="status" format="enum">
+            <enum name="SUCCESS" value="0" />
+            <enum name="ERROR" value="1" />
+            <enum name="EMPTY" value="2" />
+            <enum name="LOADING" value="3" />
+            <enum name="NONET" value="4" />
+        </attr>
+    </declare-styleable>
+</resources>

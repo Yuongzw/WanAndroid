@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">MyDailyStudy</string>
+    <string name="app_des">• 项目整体采用MVP+RxJava+Retrofit打造\n
+        •基本上实现了Wan Android App的所有接口\n
+        •本次所用到的开源框架有一下：\n
+        •likeview(点赞收藏)\n
+        •finestwebview(网页)\n
+        •flow-layout(悬浮标签)\n
+        •base-adapter(鸿洋大神打造的万能适配器)\n
+        •BaseRecyclerViewAdapterHelper(万能的RecyclerView适配器)\n
+        •recyclerview-swipe(具有侧滑的RecyclerView  主要用来实现模仿微信侧滑删除)\n
+        •PickerView(非常强大的选择器，有多种)\n
+        •SmartRefreshLayout(一款非常强大的下拉刷新和上拉加载框架)\n
+        •Glide(图片请求框架)\n
+        •changeskin(鸿洋大神封装的换肤框架)\n
+        •changeskin(鸿洋大神封装的换肤框架)\n
+        •本人只是app开发中的一只菜鸟，努力前进中！</string>
+    <string name="open_source">• 鸿洋WanAndroid App开放接口</string>
+
+</resources>

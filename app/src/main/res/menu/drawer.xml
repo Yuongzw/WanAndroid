@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group>
+        <item android:id="@+id/my_favorite"
+            android:title="我的收藏"
+            android:icon="@drawable/ic_favorite"/>
+
+        <item android:id="@+id/weather"
+            android:title="我的代办"
+            android:icon="@drawable/ic_todo"/>
+        <item android:id="@+id/change_skin"
+        android:title="切换皮肤"
+        android:icon="@drawable/ic_skin"/>
+        <item android:title="退出登录"
+            android:id="@+id/logout"
+            android:icon="@drawable/ic_logout"/>
+    </group>
+
+    <item android:title="其他">
+        <menu>
+            <item
+                android:id="@+id/setting"
+                android:icon="@drawable/ic_setting"
+                android:title="设置" />
+            <item
+                android:id="@+id/about"
+                android:icon="@drawable/ic_about"
+                android:title="关于" />
+        </menu>
+
+    </item>
+
+</menu>
